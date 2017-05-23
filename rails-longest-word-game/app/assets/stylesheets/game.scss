@@ -1,0 +1,80 @@
+// Place all the styles related to the game controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.game-cover {
+  height: 40vh;
+  background: #66778e;
+  background-size: cover;
+  color: white;
+  margin: 0px;
+  display: flex;
+  align-content: center;
+  justify-content:center;
+  text-align: center;
+}
+
+.banner-center {
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  h1 {
+    font-weight: 100;
+  }
+}
+
+.form-container {
+  display: flex;
+  justify-content:center;
+  margin-top: 30px;
+}
+
+.form {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background: #f7f7f7;
+  border-radius: 10px;
+  width: 30vw;
+  padding: 30px 30px;
+  margin: 0 20px;
+  box-shadow: 0px 0px 35px -5px rgba(140,140,140,0.75);
+  h3 {
+    font-weight: 100;
+    margin: 0px;
+  }
+}
+
+.letters-container {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  background: #f9f9f9;
+  border-radius: 10px;
+  padding: 30px 30px;
+  margin: 0 20px;
+  box-shadow: 0px 0px 35px -5px rgba(140,140,140,0.75);
+  h3 {
+    font-weight: 100;
+  }
+}
+
+.score {
+  background: #f9f9f9;
+  border-radius: 10px;
+  width: 30vw;
+  margin-top: 30px;
+  text-align: left;
+  padding: 30px 30px;
+  box-shadow: 0px 0px 35px -5px rgba(140,140,140,0.75);
+  p {
+    font-size: 18px;
+    font-weight: 300;
+  }
+}
+
+.information {
+  display: flex;
+  justify-content: center;
+}

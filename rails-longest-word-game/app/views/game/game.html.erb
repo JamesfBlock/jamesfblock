@@ -1,0 +1,31 @@
+<div class="game-cover">
+  <div class="banner-center">
+    <h1>Hey you sexy little minx, why not play my game?</h1>
+    <h2>The Time has started!</h2>
+  </div>
+</div>
+
+<div class="form-container padded text-center">
+  <div class="letters-container text-center">
+    <div class="text-center">
+      <h3> Your Letters </h3>
+      <hr>
+      <h1><%= @random %></h1>
+      <hr>
+      <input type="button" value="Start Again" class="btn btn-primary"onClick="window.location.reload()">
+    </div>
+  </div>
+  <div class="form">
+    <form action="/game/score" method="get" class="form-inline text-center">
+    <h3>What word have you found?</h3>
+    <input type="text" id="question" name="word" placeholder="write a word" class="form-control">
+      <input type="hidden" name="starttime" value="<%=@starttime%>">
+      <input type="hidden" name="letters" value="<%=@random%>">
+      <input type="submit" value="Go on!" class="btn btn-primary">
+    </form>
+  </div>
+</div>
+
+
+
+
