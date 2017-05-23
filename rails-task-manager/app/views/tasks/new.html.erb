@@ -1,0 +1,24 @@
+<!-- <form action="/tasks">
+  <label for="task_name">Task Name</label>
+  <input type="text-field" id="task_name" name="name">
+
+  <label for="task_description">Description</label>
+  <input type="text-field" id="task_name" name="name">
+
+  <input type="submit">
+</form> -->
+
+<div class="centered">
+  <div class="form-container padded text-center">
+    <h1>Add a task</h1>
+    <%= form_for (@task), {:class => "form-inline"} do |f|  %>
+      <%= f.label :name %>
+      <%= f.text_field :name, class: "form-control" %>
+
+      <%= f.label :decription %>
+      <%= f.text_field :decription, class: "form-control" %>
+
+      <%= f.submit :Submit, class: 'btn btn-primary form-inline' %>
+    <%  end %>
+  </div>
+</div>

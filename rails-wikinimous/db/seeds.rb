@@ -5,7 +5,3 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-
-# water-plants = task.new(name: "Water" description: "use hose")
-# feed-plants = task.new(name: "Feed" description: "use feed")
-# spray-plants = task.new(name: "Spray" description: "use spray bottle")

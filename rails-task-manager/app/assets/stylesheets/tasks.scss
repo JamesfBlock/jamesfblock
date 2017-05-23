@@ -1,0 +1,65 @@
+// Place all the styles related to the tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.centered {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  padding: 40px;
+  box-shadow: 0px 0px 7px -1px rgba(0,0,0,0.75);
+  border-radius: 10px;
+  color: #66778e;
+  background: #f7f7f7;
+  width: 30vw;
+}
+
+.task-block {
+  padding: 20px;
+}
+
+.col-content {
+  position: relative;
+  margin: 50px;
+  background: #f7f7f7;
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+  h2 {
+    font-size: 25px;
+    font-weight: 200;
+  }
+}
+
+.main-wrapper {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  background-size: cover;
+  height: 30vh;
+  color: #66778e;
+}
+
+.board {
+  background-image: url("http://www.lostsurfboards.net/wp-content/uploads/2015/06/corkBoardWP-1.jpg");
+  height:100vh;
+}
+
+#pin-pic {
+  height: 30px;
+}
+
+.pin {
+  position: absolute;
+  top:-10px;
+  right:-10px;
+}
+
